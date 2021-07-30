@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 70vh;
+    background-image: url(../Imagenes/Fondo-Index.jpg);
+    font-family: roboto;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: aliceblue;
+    padding: 150px;
+}
+
+body{
+    background-image: ;
+}
+
+#nicolas{
+
+    margin-left: 200px;
+}
+:root{
+    scroll-behavior: smooth;
+}
+
+.Menu{
+    position: fixed;
+    top:50px;
+    right: 50px;
+    border: solid;
+    border-color: azure;
+    display: flex;
+    width: 200px;
+    
+
+}
+
+.Recorrido{
+    height: 100vh;
+    background-image: url(../Imagenes/DiscoRigido4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: roboto;
+}
+.Contacto{
+    height: 100vh;
+    background-image: url(../Imagenes/Contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: roboto; 
+}
+#ContenedorContacto{
+    padding-left: 450px;
+    padding-top: 0%;
+    height: auto;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+}
+
+.ContenedorRecorrido{
+    display: grid;
+    margin-left: 450px;
+    margin-top: 100px;
+    width: 60%;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 50px;
+    font-family: roboto;
+    color:white;
+    overflow: hidden;
+    
+}
+
+.formulario{
+    font-family: roboto;
+    color: cornsilk;
+
+}
+#Me{
+    padding: 5px;
+    font-family: roboto;
+    color: azure;
+
+}
+
+#Me:hover{
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+#NombreSecciones{
+    padding-top:  150px;
+    padding-left: 150px;
+    font-family: roboto;
+    font-size: 50px;
+    color: azure;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: azure;
+}  
+  a:visited {
+    text-decoration: none;
+    color: azure;
+}
+
+
